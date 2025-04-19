@@ -1,23 +1,46 @@
 
 """
-Eye Gaze Controlled Media Player
+Eye Gaze Controlled Media Player with Audio Playback
 Author: Abhishek Tyagi
 Version: 2.3
-GitHub: https://github.com/AbhishekTyagi404
-CS50 Certificate: https://cs50.harvard.edu/certificates/cdea1963-1535-4aef-be8e-d285f8a4f2e4
 """
 
 import cv2
 import time
-import pyautogui
+import os
+import pygame
 from gaze_tracking import GazeTracking
 
+# Initialize gaze tracker and webcam
 gaze = GazeTracking()
 webcam = cv2.VideoCapture(0)
 
+# Initialize pygame mixer
+pygame.mixer.init()
+
+# Load songs from media directory
+media_folder = "media"
+songs = [file for file in os.listdir(media_folder) if file.endswith(".mp3")]
+songs.sort()
+current_song = 0
+
+def play_song(index):
+    song_path = os.path.join(media_folder, songs[index])
+    pygame.mixer.music.load(song_path)
+    pygame.mixer.music.play()
+    print(f"▶️ Playing: {songs[index]}")
+
+if songs:
+    play_song(current_song)
+else:
+    print("⚠️ No .mp3 files found in 'media/' folder.")
+    exit()
+
 blink_count = 0
 last_blink_time = 0
-blink_window = 2  # seconds to detect multiple blinks
+blink_window = 2  # seconds
+
+paused = False
 
 while True:
     _, frame = webcam.read()
@@ -35,12 +58,18 @@ while True:
         last_blink_time = now
 
         if blink_count == 2:
-            pyautogui.press('right')
-            print("[MEDIA] Next song triggered (2 blinks)")
+            current_song = (current_song + 1) % len(songs)
+            play_song(current_song)
             blink_count = 0
+
         elif blink_count == 3:
-            pyautogui.press('space')
-            print("[MEDIA] Pause/Play toggled (3 blinks)")
+            if paused:
+                pygame.mixer.music.unpause()
+                print("▶️ Resumed")
+            else:
+                pygame.mixer.music.pause()
+                print("⏸️ Paused")
+            paused = not paused
             blink_count = 0
 
         text = f"Blinking ({blink_count})"
