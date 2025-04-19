@@ -114,6 +114,17 @@ It will open your webcam and start live gaze tracking with on-screen annotations
 - CS50 AI: https://cs50.harvard.edu/ai/
 
 ---
+<details>
+<summary>🎥 Watch Demo</summary>
+
+<br>
+
+<video src="https://github.com/AbhishekTyagi404/Gaze_Tracking/blob/main/Final_Demo.webm?raw=true" controls width="100%" style="border-radius: 12px; margin-top: 10px;">
+  Your browser does not support the video tag.
+</video>
+
+</details>
+
 
 ## 🧠 Future Work
 
