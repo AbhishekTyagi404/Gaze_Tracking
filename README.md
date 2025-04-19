@@ -21,14 +21,9 @@ Project for CS50x AI (Harvard)
   Your browser does not support the video tag.
 </video>
 
-  Your browser does not support the video tag.
-</video>
-<a href="https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif" target="_blank">
-  <img src="https://img.shields.io/badge/▶️%20Open%20GIF%20Demo-blue?style=for-the-badge" alt="Open GIF Demo">
-</a>
-
-
 ---
+🖼️ [Click here to view GIF Demo](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
+
 
 ## 📦 Features
 
