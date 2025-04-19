@@ -21,6 +21,9 @@ Project for CS50x AI (Harvard)
   Your browser does not support the video tag.
 </video>
 
+  Your browser does not support the video tag.
+</video>
+
 </details>
 
 ![Gaze Tracking Demo GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
