@@ -23,7 +23,8 @@ Project for CS50x AI (Harvard)
 
 </details>
 
-![Project Demo GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
+![Gaze Tracking Demo GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
+
 
 
 ---
