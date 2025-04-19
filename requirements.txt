@@ -3,3 +3,4 @@ dlib
 pyautogui
 numpy
 imutils
+pygame
