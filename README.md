@@ -10,7 +10,21 @@ Roll No: 42370211217
 Delhi Institute of Tool Engineering  
 Project for CS50x AI (Harvard)  
 🎓 [Certificate](https://cs50.harvard.edu/certificates/cdea1963-1535-4aef-be8e-d285f8a4f2e4)  
-🎥 [Project Demo GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
+## 🎥 Demo Preview
+
+<details>
+<summary>▶️ Click to Watch the WebM Demo</summary>
+
+<br>
+
+<video src="https://github.com/AbhishekTyagi404/Gaze_Tracking/blob/main/Final_Demo.webm?raw=true" controls width="100%" style="border-radius: 12px;">
+  Your browser does not support the video tag.
+</video>
+
+</details>
+
+![Project Demo GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif)
+
 
 ---
 
@@ -114,17 +128,6 @@ It will open your webcam and start live gaze tracking with on-screen annotations
 - CS50 AI: https://cs50.harvard.edu/ai/
 
 ---
-<details>
-<summary>🎥 Watch Demo</summary>
-
-<br>
-
-<video src="https://github.com/AbhishekTyagi404/Gaze_Tracking/blob/main/Final_Demo.webm?raw=true" controls width="100%" style="border-radius: 12px; margin-top: 10px;">
-  Your browser does not support the video tag.
-</video>
-
-</details>
-
 
 ## 🧠 Future Work
 
