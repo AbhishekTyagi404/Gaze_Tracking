@@ -10,7 +10,7 @@ Roll No: 42370211217
 Delhi Institute of Tool Engineering  
 Project for CS50x AI (Harvard)  
 🎓 [Certificate](https://cs50.harvard.edu/certificates/cdea1963-1535-4aef-be8e-d285f8a4f2e4)  
-🎥 [Project Demo]([https://youtu.be/DKxA6mvGz5w](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif))
+🎥 [Project Demo]([GIF](https://kritrimintelligence.com/wp-content/uploads/2025/03/EyeGazing_GIF.gif))
 
 ---
 
